@@ -4,4 +4,5 @@
 ## Tasks:
 
 - AB testing
-- 
+- DB schema
+- Excel parsing
