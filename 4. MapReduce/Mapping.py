@@ -66,5 +66,13 @@ class MapReduce:
 
 
 map_reduce = MapReduce(["list1.csv", "list2.csv", "list3.csv"])
+
+print("MAP:")
+print(map_reduce.map())
+print("Shuffle&Sort:")
+print(map_reduce.shufflensort())
+print("Reduce :")
+print(map_reduce.reduce())
+print("Со звездочкой:")
 print(map_reduce.get_all_calls_time())
 
